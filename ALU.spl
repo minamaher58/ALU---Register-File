@@ -1,0 +1,11 @@
+[Inputs]
+cin
+=data1[31:0]=
+=data2[31:0]=
+=aluop[3:0]=
+[Outputs]
+cflag
+zflag
+oflag
+=dataout[31:0]=
+[BiDir]

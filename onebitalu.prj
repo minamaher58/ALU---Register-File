@@ -1,0 +1,7 @@
+vhdl work "pachagee.vhd"
+vhdl work "orr.vhd"
+vhdl work "one_bit_adder.vhd"
+vhdl work "multiplixer16.vhd"
+vhdl work "multiplixer.vhd"
+vhdl work "andd.vhd"
+vhdl work "onebitalu.vhd"

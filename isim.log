@@ -1,0 +1,28 @@
+ISim log file
+Running: D:\MainModuleee\MainModuleee\RobotTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/MainModuleee/MainModuleee/RobotTest_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /robottest/uut/adderr/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /robottest/uut/data/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 1 ns(1), Instance /robottest/uut/instruction/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 2 ns: Note: Test1 (/robottest/).
+at 2 ns(1), Instance /robottest/uut/instruction/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 3500 ps: Note: Test2 (/robottest/).
+at 3500 ps: Error: 2:Fail
+at 14500 ps: Note: Test3 (/robottest/).
+at 14500 ps: Error: 3:Fail
+at 95500 ps: Note: Test4 (/robottest/).
+at 95500 ps: Error: 4:Fail
+at 107500 ps: Note: Test5 (/robottest/).
+at 107500 ps: Error: 5:Fail
+at 184500 ps: Note: Test6 (/robottest/).
+at 184500 ps: Error: 6:Fail
+at 191500 ps: Note: Test7 (/robottest/).
+at 191500 ps: Error: 7:Fail
+at 191500 ps: Note: Test Complete (/robottest/).

@@ -1,0 +1,75 @@
+Running: C:\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/MainModuleee/MainModuleee/RobotTest_isim_beh.exe -prj D:/MainModuleee/MainModuleee/RobotTest_beh.prj work.RobotTest 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/MainModuleee/MainModuleee/pachagee.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/pachage_mux_dec_reg_and.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/orr.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/one_bit_adder.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/multiplixer16.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/multiplixer.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/anddd.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/reg.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/onebitalu.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/multiplixer (2).vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/decoderr.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/andd.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/sign_extend.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/registerfile_alu_pachage.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/RegisterFile.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/pachageee.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/muxx4.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/mux32.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/InstMem.V3.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/GenericReg.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/Datamem.V4.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/control_unit.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/ALU_control.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/ALU.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/adder.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/MainModule.vhd" into library work
+Parsing VHDL file "D:/MainModuleee/MainModuleee/RobotTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package pachageee
+Compiling package registerfile_alu_pachage
+Compiling package pachagee
+Compiling package pachage_mux_dec_reg_and
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity generic_reg [\generic_reg(32)\]
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity INSTRMEMORY [\INSTRMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture behavioral of entity sign_extend [sign_extend_default]
+Compiling architecture behavioral of entity muxx4 [muxx4_default]
+Compiling architecture behavioral of entity decoderr [decoderr_default]
+Compiling architecture behavioral of entity andd [andd_default]
+Compiling architecture behavioral of entity reg [reg_default]
+Compiling architecture behavioral of entity multiplixer [multiplixer_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity ALU_control [alu_control_default]
+Compiling architecture behavioral of entity mux32 [mux32_default]
+Compiling package numeric_std
+Compiling architecture behavioral of entity multiplixer21 [multiplixer21_default]
+Compiling architecture behavioral of entity anddd [anddd_default]
+Compiling architecture behavioral of entity orr [orr_default]
+Compiling architecture behavioral of entity one_bit_adder [one_bit_adder_default]
+Compiling architecture behavioral of entity multiplixer16 [multiplixer16_default]
+Compiling architecture behavioral of entity onebitalu [onebitalu_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DATAMEMORY [\DATAMEMORY(64,32,32)\]
+Compiling architecture behavioral of entity MainModule [mainmodule_default]
+Compiling architecture behavior of entity robottest
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 57 VHDL Units
+Built simulation executable D:/MainModuleee/MainModuleee/RobotTest_isim_beh.exe
+Fuse Memory Usage: 38320 KB
+Fuse CPU Usage: 1044 ms

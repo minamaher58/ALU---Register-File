@@ -1,0 +1,3 @@
+vhdtdtfi -lib work multiplixer16.vhd -prj MainModulee -o multiplixer16.spl -module multiplixer16 -template C:/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 multiplixer16.spl D:/MainModulee/multiplixer16.sym 
+vhdtdtfi -prj MainModulee -o D:/MainModulee/multiplixer16.vhi -module multiplixer16 -template C:/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work multiplixer16.vhd 

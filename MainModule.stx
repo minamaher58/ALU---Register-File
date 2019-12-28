@@ -1,0 +1,132 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/MainModuleee/MainModuleee/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to D:/MainModuleee/MainModuleee/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\MainModuleee\MainModuleee\pachagee.vhd" into library work
+Parsing package <pachagee>.
+Parsing package body <pachagee>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\pachage_mux_dec_reg_and.vhd" into library work
+Parsing package <pachage_mux_dec_reg_and>.
+Parsing package body <pachage_mux_dec_reg_and>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\orr.vhd" into library work
+Parsing entity <orr>.
+Parsing architecture <Behavioral> of entity <orr>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\one_bit_adder.vhd" into library work
+Parsing entity <one_bit_adder>.
+Parsing architecture <Behavioral> of entity <one_bit_adder>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\multiplixer16.vhd" into library work
+Parsing entity <multiplixer16>.
+Parsing architecture <Behavioral> of entity <multiplixer16>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\multiplixer.vhd" into library work
+Parsing entity <multiplixer21>.
+Parsing architecture <Behavioral> of entity <multiplixer21>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\anddd.vhd" into library work
+Parsing entity <anddd>.
+Parsing architecture <Behavioral> of entity <anddd>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\reg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\onebitalu.vhd" into library work
+Parsing entity <onebitalu>.
+Parsing architecture <Behavioral> of entity <onebitalu>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\multiplixer (2).vhd" into library work
+Parsing entity <multiplixer>.
+Parsing architecture <Behavioral> of entity <multiplixer>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\decoderr.vhd" into library work
+Parsing entity <decoderr>.
+Parsing architecture <Behavioral> of entity <decoderr>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\andd.vhd" into library work
+Parsing entity <andd>.
+Parsing architecture <Behavioral> of entity <andd>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\sign_extend.vhd" into library work
+Parsing entity <sign_extend>.
+Parsing architecture <Behavioral> of entity <sign_extend>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\registerfile_alu_pachage.vhd" into library work
+Parsing package <registerfile_alu_pachage>.
+Parsing package body <registerfile_alu_pachage>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\RegisterFile.vhd" into library work
+Parsing entity <RegisterFile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\pachageee.vhd" into library work
+Parsing package <pachageee>.
+Parsing package body <pachageee>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\muxx4.vhd" into library work
+Parsing entity <muxx4>.
+Parsing architecture <Behavioral> of entity <muxx4>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\mux32.vhd" into library work
+Parsing entity <mux32>.
+Parsing architecture <Behavioral> of entity <mux32>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\InstMem.V3.vhd" into library work
+Parsing entity <INSTRMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <instrmemory>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\GenericReg.vhd" into library work
+Parsing entity <generic_reg>.
+Parsing architecture <Behavioral> of entity <generic_reg>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\Datamem.V4.vhd" into library work
+Parsing entity <DATAMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <datamemory>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\control_unit.vhd" into library work
+Parsing entity <control_unit>.
+Parsing architecture <Behavioral> of entity <control_unit>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\ALU_control.vhd" into library work
+Parsing entity <ALU_control>.
+Parsing architecture <Behavioral> of entity <alu_control>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\adder.vhd" into library work
+Parsing entity <adder>.
+Parsing architecture <Behavioral> of entity <adder>.
+Parsing VHDL file "D:\MainModuleee\MainModuleee\MainModule.vhd" into library work
+Parsing entity <MainModule>.
+Parsing architecture <Behavioral> of entity <mainmodule>.
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.59 secs
+ 
+--> 
+
+Total memory usage is 210996 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

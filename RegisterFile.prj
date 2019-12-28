@@ -1,0 +1,5 @@
+vhdl work "pachage_mux_dec_reg_and.vhd"
+vhdl work "reg.vhd"
+vhdl work "multiplixer (2).vhd"
+vhdl work "decoderr.vhd"
+vhdl work "RegisterFile.vhd"

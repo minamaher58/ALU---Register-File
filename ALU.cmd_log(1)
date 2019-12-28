@@ -1,0 +1,7 @@
+vhdtdtfi -prj MainModulee -o D:/MainModulee/ALU.vhi -module ALU -template C:/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pachagee.vhd -lib work orr.vhd -lib work one_bit_adder.vhd -lib work multiplixer16.vhd -lib work andd.vhd -lib work onebitalu.vhd -lib work norr.vhd -lib work multiplixer.vhd -lib work ALU.vhd 
+vhdtdtfi -prj MainModulee -o D:/MainModulee/ALU.vhi -module ALU -template C:/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work pachagee.vhd -lib work orr.vhd -lib work one_bit_adder.vhd -lib work multiplixer16.vhd -lib work andd.vhd -lib work onebitalu.vhd -lib work norr.vhd -lib work multiplixer.vhd -lib work ALU.vhd 
+vhdtdtfi -lib work pachagee.vhd -lib work orr.vhd -lib work one_bit_adder.vhd -lib work multiplixer16.vhd -lib work andd.vhd -lib work onebitalu.vhd -lib work norr.vhd -lib work multiplixer.vhd -lib work ALU.vhd -prj MainModulee -o ALU.spl -module ALU -template C:/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALU.spl D:/MainModulee/ALU.sym 
+vhdtdtfi -lib work pachagee.vhd -lib work orr.vhd -lib work one_bit_adder.vhd -lib work multiplixer16.vhd -lib work andd.vhd -lib work onebitalu.vhd -lib work norr.vhd -lib work multiplixer.vhd -lib work ALU.vhd -prj MainModulee -o ALU.spl -module ALU -template C:/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALU.spl D:/MainModulee/ALU.sym 
+xst -intstyle ise -ifn "C:/Users/minaM/Downloads/MainModulee/ALU.xst" -ofn "C:/Users/minaM/Downloads/MainModulee/ALU.syr" 

@@ -1,0 +1,249 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: RobotTest.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RobotTest.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RobotTest"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : RobotTest
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\MainModulee\pachage_mux_dec_reg_and.vhd" into library work
+Parsing package <pachage_mux_dec_reg_and>.
+Parsing package body <pachage_mux_dec_reg_and>.
+Parsing VHDL file "D:\MainModulee\pachagee.vhd" into library work
+Parsing package <pachagee>.
+Parsing package body <pachagee>.
+Parsing VHDL file "D:\MainModulee\orr.vhd" into library work
+Parsing entity <orr>.
+Parsing architecture <Behavioral> of entity <orr>.
+Parsing VHDL file "D:\MainModulee\one_bit_adder.vhd" into library work
+Parsing entity <one_bit_adder>.
+Parsing architecture <Behavioral> of entity <one_bit_adder>.
+Parsing VHDL file "D:\MainModulee\multiplixer16.vhd" into library work
+Parsing entity <multiplixer16>.
+Parsing architecture <Behavioral> of entity <multiplixer16>.
+Parsing VHDL file "D:\MainModulee\andd.vhd" into library work
+Parsing entity <anddd>.
+Parsing architecture <Behavioral> of entity <anddd>.
+Parsing VHDL file "D:\MainModulee\reg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "D:\MainModulee\onebitalu.vhd" into library work
+Parsing entity <onebitalu>.
+Parsing architecture <Behavioral> of entity <onebitalu>.
+Parsing VHDL file "D:\MainModulee\norr.vhd" into library work
+Parsing entity <norr>.
+Parsing architecture <Behavioral> of entity <norr>.
+Parsing VHDL file "D:\MainModulee\multiplixer.vhd" into library work
+Parsing entity <multiplixer21>.
+Parsing architecture <Behavioral> of entity <multiplixer21>.
+Parsing VHDL file "D:\MainModulee\multiplixer (2).vhd" into library work
+Parsing entity <multiplixer>.
+Parsing architecture <Behavioral> of entity <multiplixer>.
+Parsing VHDL file "D:\MainModulee\decoderr.vhd" into library work
+Parsing entity <decoderr>.
+Parsing architecture <Behavioral> of entity <decoderr>.
+Parsing VHDL file "D:\MainModulee\andd (2).vhd" into library work
+Parsing entity <andd>.
+Parsing architecture <Behavioral> of entity <andd>.
+Parsing VHDL file "D:\MainModulee\sign_extend.vhd" into library work
+Parsing entity <sign_extend>.
+Parsing architecture <Behavioral> of entity <sign_extend>.
+Parsing VHDL file "D:\MainModulee\registerfile_alu_pachage.vhd" into library work
+Parsing package <registerfile_alu_pachage>.
+Parsing package body <registerfile_alu_pachage>.
+Parsing VHDL file "D:\MainModulee\RegisterFile.vhd" into library work
+Parsing entity <RegisterFile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+Parsing VHDL file "D:\MainModulee\pachageee.vhd" into library work
+Parsing package <pachageee>.
+Parsing package body <pachageee>.
+Parsing VHDL file "D:\MainModulee\muxx4.vhd" into library work
+Parsing entity <muxx4>.
+Parsing architecture <Behavioral> of entity <muxx4>.
+Parsing VHDL file "D:\MainModulee\InstMem.V3.vhd" into library work
+Parsing entity <INSTRMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <instrmemory>.
+Parsing VHDL file "D:\MainModulee\GenericReg.vhd" into library work
+Parsing entity <generic_reg>.
+Parsing architecture <Behavioral> of entity <generic_reg>.
+Parsing VHDL file "D:\MainModulee\Datamem.V4.vhd" into library work
+Parsing entity <DATAMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <datamemory>.
+Parsing VHDL file "D:\MainModulee\control_unit.vhd" into library work
+Parsing entity <control_unit>.
+Parsing architecture <Behavioral> of entity <control_unit>.
+Parsing VHDL file "D:\MainModulee\ALU_control.vhd" into library work
+Parsing entity <ALU_control>.
+Parsing architecture <Behavioral> of entity <alu_control>.
+Parsing VHDL file "D:\MainModulee\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\MainModulee\adder.vhd" into library work
+Parsing entity <adder>.
+Parsing architecture <Behavioral> of entity <adder>.
+Parsing VHDL file "D:\MainModulee\MainModule.vhd" into library work
+Parsing entity <MainModule>.
+Parsing architecture <Behavioral> of entity <mainmodule>.
+Parsing VHDL file "D:\MainModulee\RobotTest.vhd" into library work
+Parsing entity <RobotTest>.
+Parsing architecture <behavior> of entity <robottest>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <RobotTest> (architecture <behavior>) from library <work>.
+
+Elaborating entity <MainModule> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <generic_reg> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <sign_extend> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <multiplixer21> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <INSTRMEMORY> (architecture <BEHAVIORAL>) with generics from library <work>.
+WARNING:HDLCompiler:634 - "D:\MainModulee\InstMem.V3.vhd" Line 49: Net <ROM_PROCESS.MEMORY[33][31]> does not have a driver.
+
+Elaborating entity <control_unit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <muxx4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RegisterFile> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <decoderr> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <andd> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <reg> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <multiplixer> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_control> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <onebitalu> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <anddd> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <orr> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <one_bit_adder> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <multiplixer16> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <norr> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DATAMEMORY> (architecture <BEHAVIORAL>) with generics from library <work>.
+ERROR:HDLCompiler:890 - "D:\MainModulee\RobotTest.vhd" Line 86: wait statement without UNTIL clause not supported for synthesis
+Netlist RobotTest(behavior) remains a blackbox, due to errors in its contents
+--> 
+
+Total memory usage is 236708 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
